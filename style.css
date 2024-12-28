@@ -1,0 +1,53 @@
+*{
+    font-family: "Poppins", serif !important;
+}
+.section-1{
+    min-height: 600px;
+    background:url('./images/slide1.jpg'),rgba(134, 27, 27, 0.649);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-blend-mode: color-burn;
+    animation: backchange 10s linear infinite alternate;
+}
+@keyframes backchange {
+    50%{
+        background:url('./images/slide2.jpg'),rgba(134, 27, 27, 0.649);
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    100%{
+        background:url('./images/slide3.jpg'),rgba(134, 27, 27, 0.649);
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+        
+}
+.red-obj{
+    height: 450px;
+    width: 500px;
+    left: -169px;
+}
+.card-h{
+    height: 350px;
+}
+.h-price-card{
+    height: 520px;
+}
+.list-h{
+    height: 230px;
+    overflow: scroll;
+}
+
+.list-h li{
+list-style:none;
+}
+.list-h::-webkit-scrollbar{
+    display: none;
+}
+.h-rev-card{
+    height: 400px;
+}
+.img-secure{
+    border-radius: 8px 0 8px 0;
+    width: 90%;
+}

@@ -1,6 +1,9 @@
 *{
     font-family: "Poppins", serif !important;
 }
+body{
+    overflow-x: hidden;
+}
 .section-1{
     min-height: 600px;
     background:url('./images/slide1.jpg'),rgba(134, 27, 27, 0.649);
@@ -50,4 +53,34 @@ list-style:none;
 .img-secure{
     border-radius: 8px 0 8px 0;
     width: 90%;
+}
+.bg-footer{
+    background-color: gainsboro;
+}
+.rounded-img{
+    border-radius: 0 15px 15px 0;
+}
+.bg-car{
+    background: url('./images/car-1.jpg'),rgba(28, 28, 76, 0.809);
+    background-blend-mode: color-burn;
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+    min-height: 650px;
+}
+.position-card-container{
+    position: absolute;
+    bottom: 10px;
+}
+.h-sec-card{
+    min-height: 1000px;
+}
+.container-fluid{
+    padding:0 !important;
+}
+
+@media (max-width:990px) {
+    .position-card-container{
+     position: relative;
+    }
 }

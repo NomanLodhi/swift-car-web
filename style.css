@@ -78,9 +78,18 @@ list-style:none;
 .container-fluid{
     padding:0 !important;
 }
-
+.section-car{
+    min-height: 1000px;
+}
+.middle-prize-card{
+    transform: scale(1.15);
+}
 @media (max-width:990px) {
     .position-card-container{
-     position: relative;
+        position: relative;
     }
+    .middle-prize-card{
+        transform: scale(1);
+    }
+    
 }

@@ -81,8 +81,32 @@ list-style:none;
 .section-car{
     min-height: 1000px;
 }
+.sign-in-div{
+    display: flex;
+}
+.left-corner{
+    width: 30%;
+}
+.right-corner{
+    width: 70%;
+}
 .middle-prize-card{
     transform: scale(1.15);
+}
+.list-with-icons li{
+    list-style: none;
+    
+}
+@media (max-width:576px){
+    .sign-in-div{
+        flex-direction: column;
+    }
+    .left-corner{
+        width: 100%;
+    }
+    .right-corner{
+        width: 100%;
+    }
 }
 @media (max-width:990px) {
     .position-card-container{
